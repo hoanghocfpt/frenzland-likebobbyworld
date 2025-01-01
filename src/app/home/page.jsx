@@ -19,7 +19,7 @@ const HomePage = () => {
                 <div className="home_container">
                 <div className="header_home">
                     <h2>
-                    <span className="label">Official Home Base Of</span>
+                    {/* <span className="label">Official Home Base Of</span> */}
                     <span className={`${titanOne.className} heading`}>BOBBY</span>
                     </h2>
                     <p>
@@ -171,7 +171,7 @@ const HomePage = () => {
                     </div> 
                 </div>
 
-
+{/* 
                 <div className="how-to-buy">
                     <h3 className='heading'>How to buy <span className={titanOne.className}>$BOBBY</span></h3>
                     <div className='container'>
@@ -187,12 +187,12 @@ const HomePage = () => {
                             <div className='title'>BUY $BOBBY</div>
                             <p>Go to Uniswap and import the contract address for $BOBBY (Located below).</p>
                         </div>
-                        {/* <div className='card'>
+                        <div className='card'>
                             <div className='title'>ADD TO WALLET</div>
                             <p>Simply include the $BOBBY contract address in your Metamask Wallet to display your $BOBBY tokens. Quack-Tastic, welcome aboard!</p>
-                        </div> */}
+                        </div>
                     </div>
-                </div>
+                </div> */}
 
                 <SmartContract />
                 <div className='tokenomics'>

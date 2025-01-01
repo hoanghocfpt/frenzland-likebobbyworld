@@ -6,7 +6,7 @@ const SmartContract = () => {
         <div className='contract-address'>
             <h3 className='heading'>Contract Address</h3>
             <div className='dex-icon'>
-                <a href='https://www.dextools.io/app/en/base/pair-explorer/0x3f8b30cf8d7f1510dda1bf53a26cd99452ebf386?t=1734105968141' target='_blank' rel='noreferrer'>
+                {/* <a href='https://www.dextools.io/app/en/base/pair-explorer/0x3f8b30cf8d7f1510dda1bf53a26cd99452ebf386?t=1734105968141' target='_blank' rel='noreferrer'>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         height={100}
@@ -21,7 +21,7 @@ const SmartContract = () => {
                         ></path>
                     </svg>
                     <span className='name-dex'>Dextools</span>
-                </a>
+                </a> */}
                 <a href='https://dexscreener.com/base/0x3f8b30cf8d7f1510dda1bf53a26cd99452ebf386' target='_blank' rel='noreferrer'>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"

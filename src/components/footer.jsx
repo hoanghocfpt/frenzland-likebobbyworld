@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="rightFooter">
                 <div className="text-big">
                     <Image src="/images/asset/footerlogo.svg" alt="Bobby Logo" width={500} height={500} />
-                    <span className="email">Hello@bobbyworld.lol</span>
+                    {/* <span className="email">Hello@bobbyworld.lol</span> */}
                 </div>
                 {/* <div className="btn_contact">
                     
@@ -187,7 +187,7 @@ const Footer = () => {
                         <Link href="">CAREERS</Link>
                     </li>
                     </ul> */}
-                    <span className="copyright">Copyright ©2024 BOBBY ON BASE</span>
+                    <span className="copyright">Copyright ©2024 BOBBY ON</span>
                     {/* <span className="powered">Powered by Hedera</span> */}
                 </div>               
             </div>
