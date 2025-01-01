@@ -1,0 +1,86 @@
+.carditem{
+    width: 100%;
+    height: fit-content;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #FFFFDC;
+    border: 1px solid #333;
+}
+
+.carditem .time{
+    background: #b589fb;
+    color: #fff;
+    display: flex;
+    padding: 12px 24px;
+    border-bottom: 1px solid #333;
+    border-radius: 12px;
+    align-items: center;
+    gap: 20px;
+}
+.carditem .time .quarters{
+    font-size: 24px;
+    position: relative;
+}
+.carditem .time .quarters::after{
+    content: "";
+    width: 1px;
+    right: -10px;
+    height: 100%;
+    background: #fff;
+    position: absolute;
+}
+.carditem .time .date{
+    display: flex;
+    font-size: 20px;
+    gap: 10px;
+    align-items: center;
+}
+
+.carditem .list{
+    padding: 20px 24px;
+}
+
+.carditem .list ol{
+    padding: 0 0 0 20px;
+
+}
+.carditem .list ol li{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card-2{
+    background: #fff;
+    padding: 16px 20px;
+    border: 1px solid #000;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card-2 .icon{
+    background: #F7EFE5;
+    color: #fff;
+    padding: 12px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 16px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-2 .icon svg{
+    width: 50px;
+    height: 50px;
+}
+
+.card-2 .list ul{
+    list-style: none;
+}
+
+.card-2 .list ul li{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+}
