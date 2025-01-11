@@ -50,7 +50,7 @@ const HomePage = () => {
                     </a> */}
                 </div>
                 <div className="img_home">
-                    <img src="images/bobby4.png" alt="" />
+                    <img src="images/bobby_pikachu.svg" alt="" />
                 </div>
                 </div>
             </div>
@@ -62,45 +62,45 @@ const HomePage = () => {
                 {/* <div className="heading">
                 <h3>Mini games</h3>
                 </div> */}
-                <div className="minigame_container">
+                {/* <div className="minigame_container">
                 
-                <Link href="">
-                    <div className="card">
-                    <div className="img">
-                        <img src="images/z5355116003002_24fb6a5b3cd5ae0e34176dfde426b8f6.jpg" alt="" />
-                    </div>
-                    <div className="text">
-                        {/* <div className="title">Coming Soon</div>
-                        <div className="des">Something interesting is waiting for you</div> */}
-                    </div>
-                    </div>
-                </Link>
-                <Link href="">
-                    <div className="card">
-                    <div className="img">
-                        <img src="images/bobbyblue.png" alt="" />
-                    </div>
-                    <div className="text">
-                        {/* <div className="title">Bobby World - 9632-4821-8717</div>
-                        <div className="des">Find Bobby in Fortnite - FFA</div> */}
-                    </div>
-                    </div>
-                </Link>
-                <Link href="">
-                    <div className="card">
-                    <div className="img">
-                        <img src="images/z5355116012570_5ad0e8062ef749a7b969957dcf062bb5.jpg" alt="" />
-                    </div>
-                    <div className="text">
-                        {/* <div className="title">Coming Soon</div>
-                        <div className="des">Something interesting is waiting for you</div> */}
-                    </div>
-                    </div>
-                </Link>
-                {/* <Link href="">moregame</Link> */}
-                </div>
+                    <Link href="">
+                        <div className="card">
+                        <div className="img">
+                            <img src="images/z5355116003002_24fb6a5b3cd5ae0e34176dfde426b8f6.jpg" alt="" />
+                        </div>
+                        <div className="text">
+                            <div className="title">Coming Soon</div>
+                            <div className="des">Something interesting is waiting for you</div>
+                        </div>
+                        </div>
+                    </Link>
+                    <Link href="">
+                        <div className="card">
+                        <div className="img">
+                            <img src="images/bobbyblue.png" alt="" />
+                        </div>
+                        <div className="text">
+                            <div className="title">Bobby World - 9632-4821-8717</div>
+                            <div className="des">Find Bobby in Fortnite - FFA</div>
+                        </div>
+                        </div>
+                    </Link>
+                    <Link href="">
+                        <div className="card">
+                        <div className="img">
+                            <img src="images/z5355116012570_5ad0e8062ef749a7b969957dcf062bb5.jpg" alt="" />
+                        </div>
+                        <div className="text">
+                            <div className="title">Coming Soon</div>
+                            <div className="des">Something interesting is waiting for you</div>
+                        </div>
+                        </div>
+                    </Link>
+                <Link href="">moregame</Link>
+                </div> */}
                 {/* VIDEO TRAILER */}
-                <div className="trailer">
+                {/* <div className="trailer">
                 <div className="trailer_container">
                     <div className="dot1 dot" />
                     <div className="dot2 dot" />
@@ -121,11 +121,46 @@ const HomePage = () => {
                     />
                     </div>
                 </div>
+                </div> */}
+                {/* Community */}
+                 <div className="community">
+                    <div className="heading">
+                        <h3>Bobby Community</h3>
+                    </div>
+                    <div className="community_container">
+                        {/* <div className="card">
+                            <div className="video">
+                                <video src="./videos/news1.mp4" autoPlay loop muted playsInline />
+                            </div>
+                            <div className="content">
+                                <span className="date">11.20.2023</span>
+                                <div className="title_post">POP UP MINT!!</div>
+                            </div>
+                        </div> */}
+                        
+                        <a href='' target='_blank' className="item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24"><path fill="currentColor" d="M19.888 7.335a5.13 5.13 0 0 0-2.893-2.418a9 9 0 0 0-2.275-.508q-.284.504-.508 1.038a15 15 0 0 0-4.56 0a11 11 0 0 0-.519-1.038c-.752.082-1.493.249-2.208.497a5.12 5.12 0 0 0-2.904 2.44a16.18 16.18 0 0 0-1.91 9.717a16.6 16.6 0 0 0 4.98 2.528a4.34 4.34 0 0 0 1.104-1.777q-.81-.304-1.557-.74c-.089-.122.254-.32.364-.354a11.83 11.83 0 0 0 10.037 0c.1 0 .453.232.364.354c-.441.342-1.424.585-1.59.828a7.4 7.4 0 0 0 1.105 1.69a16.6 16.6 0 0 0 4.99-2.53a16.23 16.23 0 0 0-2.02-9.727M8.669 14.7a1.943 1.943 0 0 1-1.92-1.955a1.943 1.943 0 0 1 1.92-1.91a1.94 1.94 0 0 1 1.933 1.965a1.943 1.943 0 0 1-1.933 1.9m6.625 0a1.943 1.943 0 0 1-1.932-1.944a1.932 1.932 0 1 1 3.865.034a1.93 1.93 0 0 1-1.933 1.899z"></path></svg>
+                            <span>Discord</span>
+                        </a>
+                        <a href='' target='_blank' className="item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24"><path fill="currentColor" d="M22 11.939a26.5 26.5 0 0 0-.41-4.801a2.5 2.5 0 0 0-1.803-1.714a61 61 0 0 0-7.81-.41c-2.609-.03-5.217.11-7.808.42a2.52 2.52 0 0 0-1.76 1.76a26.4 26.4 0 0 0-.408 4.8c-.01 1.61.127 3.216.409 4.8a2.56 2.56 0 0 0 1.78 1.782c2.592.303 5.2.44 7.81.409a59 59 0 0 0 7.787-.41a2.52 2.52 0 0 0 1.759-1.758c.307-1.608.46-3.242.454-4.878m-7.411.582l-4.005 2.271a.53.53 0 0 1-.785-.464V9.616a.52.52 0 0 1 .785-.454l4.137 2.378a.52.52 0 0 1-.022.908z"></path></svg>
+                            <span>Youtube</span>
+                        </a>
+                        <a href='' target='_blank' className="item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24"><path fill="currentColor" d="M9.602 21.026v-7.274H6.818a.545.545 0 0 1-.545-.545V10.33a.545.545 0 0 1 .545-.545h2.773V7a4.547 4.547 0 0 1 4.86-4.989h2.32a.556.556 0 0 1 .557.546v2.436a.557.557 0 0 1-.557.545h-1.45c-1.566 0-1.867.742-1.867 1.833v2.413h3.723a.533.533 0 0 1 .546.603l-.337 2.888a.545.545 0 0 1-.545.476h-3.364v7.274a.96.96 0 0 1-.975.974h-1.937a.96.96 0 0 1-.963-.974"></path></svg>
+                            <span>Facebook</span>
+                        </a>
+                        <a href='' target='_blank' className="item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24"><path fill="currentColor" d="M20.357 7.75a.537.537 0 0 0-.495-.516a4.7 4.7 0 0 1-2.415-.938a4.85 4.85 0 0 1-1.887-3.3a.54.54 0 0 0-.517-.496h-2.108a.517.517 0 0 0-.517.527v12.59a2.794 2.794 0 0 1-2.974 2.762a2.815 2.815 0 0 1-2.51-3.711A2.836 2.836 0 0 1 9.93 12.78a.506.506 0 0 0 .558-.506V9.807s-.896-.063-1.202-.063a5.27 5.27 0 0 0-4.101 1.93a5.8 5.8 0 0 0-1.37 2.52a5.86 5.86 0 0 0 2.14 6.072A5.93 5.93 0 0 0 9.591 21.5q.451 0 .896-.063A5.95 5.95 0 0 0 13.8 19.78a5.84 5.84 0 0 0 1.75-4.133V8.71a7.84 7.84 0 0 0 4.218 1.613a.517.517 0 0 0 .548-.527V7.751z"></path></svg>
+                            <span>TikTok</span>
+                        </a>
+
+                    </div> 
                 </div>
                 {/* NEWS */}
                 <div className="news">
                     <div className="heading">
-                        <h3>Bobby in the news</h3>
+                        <h3>Frenzland</h3>
                     </div>
                     <div className="news_container">
                         {/* <div className="card">
@@ -170,6 +205,84 @@ const HomePage = () => {
 
                     </div> 
                 </div>
+                {/* NEWS */}
+                <div className="news">
+                    <div className="heading">
+                        <h3>Bobby mini game</h3>
+                    </div>
+                    <div className="news_container">
+                        {/* <div className="card">
+                            <div className="video">
+                                <video src="./videos/news1.mp4" autoPlay loop muted playsInline />
+                            </div>
+                            <div className="content">
+                                <span className="date">11.20.2023</span>
+                                <div className="title_post">POP UP MINT!!</div>
+                            </div>
+                        </div> */}
+                        
+                        <div className="card">
+                            <div className="img">
+                                <img src="./images/bobbytea.png" alt="Bobby Coming to Vietnam" />
+                            </div>
+                            <div className="content">
+                                <span className="date">Bobby Tea Coming Soon!</span>
+                                <div className="title_post">60 Sec ⏱  Whip Up Instant Bubble Tea At Home! Water + flavor + pearls = Quick, Easy, & Delicious</div>
+                            </div>
+                        </div>
+
+                        <div className="card">
+                            <div className="img">
+                                <img src="./images/bobbymeta.png" alt="Bobby Coming to Vietnam" />
+                            </div>
+                            <div className="content">
+                                <span className="date">Frenzland BETA Coming Soon</span>
+                                <div className="title_post">Create a RWA (Real world Asset) District, promote it, shop with your friends and earn. Opportunity for people to make money where they can&apos;t.</div>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <div className="img">
+                                <img src="./images/z5801035155027_2f8f3e0535390a2ece9b7bb1cdba5b2b.jpg" alt="The 1000 Bobby&apos;s" />
+                            </div>
+                            <div className="content">
+                                <span className="date">Bobby 1000 NFT collection</span>
+                                <div className="title_post">Shareholder of Bobby tea brand. Holders will be rewarded from Boba tea sales.</div>
+                                <Link href="/bobapaper" className="btn_cta">BOBA PAPER</Link>
+                            </div>
+                        </div> 
+
+                    </div> 
+                </div>
+                {/* media */}
+                <div className="media">
+                    <div className="heading">
+                        <h3>Media is Bobby&apos;s</h3>
+                    </div>
+                    <div className='media_container'>
+                        <div className="item">
+                            <div className="dot1 dot" />
+                            <div className="dot2 dot" />
+                            <div className='img_container'>
+                                <img src="./images/2.svg" alt="Bobby Pikachu" />
+                            </div>
+                        </div>
+                        <div className="item">
+                            <div className="dot1 dot" />
+                            <div className="dot2 dot" />
+                            <div className='img_container'>
+                                <img src="./images/3.svg" alt="Bobby Pikachu" />
+                            </div>
+                        </div>
+                        <div className="item">
+                            <div className="dot1 dot" />
+                            <div className="dot2 dot" />
+                            <div className='img_container'>
+                                <img src="./images/4.svg" alt="Bobby Pikachu" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
 
 {/* 
                 <div className="how-to-buy">
@@ -194,8 +307,8 @@ const HomePage = () => {
                     </div>
                 </div> */}
 
-                <SmartContract />
-                <div className='tokenomics'>
+                {/* <SmartContract /> */}
+                {/* <div className='tokenomics'>
                     <h3 className='heading'><span className={titanOne.className}>$BOBBY</span> Tokenomics</h3>
                     <div className='container'>
                         
@@ -213,7 +326,7 @@ const HomePage = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* <div>
                     <h3 className='heading'><span className={titanOne.className}>BOBBY</span> Tokenomics</h3>
                     <div>
