@@ -15,7 +15,7 @@ const titanOne = Titan_One({
 const HomePage = () => {
     return (
         <>
-            <div className="home">
+            <div id='main' className="home">
                 <div className="home_container">
                 <div className="header_home">
                     <h2>
@@ -123,7 +123,7 @@ const HomePage = () => {
                 </div>
                 </div> */}
                 {/* Community */}
-                 <div className="community">
+                 <div id='community' className="community">
                     <div className="heading">
                         <h3>Bobby Community</h3>
                     </div>
@@ -158,7 +158,7 @@ const HomePage = () => {
                     </div> 
                 </div>
                 {/* NEWS */}
-                <div className="news">
+                <div id='frenzland' className="news">
                     <div className="heading">
                         <h3>Frenzland</h3>
                     </div>
@@ -206,7 +206,7 @@ const HomePage = () => {
                     </div> 
                 </div>
                 {/* NEWS */}
-                <div className="news">
+                <div id='minigame' className="news">
                     <div className="heading">
                         <h3>Bobby mini game</h3>
                     </div>
@@ -254,7 +254,7 @@ const HomePage = () => {
                     </div> 
                 </div>
                 {/* media */}
-                <div className="media">
+                <div id='media' className="media">
                     <div className="heading">
                         <h3>Media is Bobby&apos;s</h3>
                     </div>

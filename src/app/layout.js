@@ -4,6 +4,7 @@ import './layout.css'
 import Header from '@/components/header/page'
 import Footer from '@/components/footer'
 import { Web3Modal } from '/context/web3modal'
+import HeaderNew from '@/components/HeaderNew'
 const catamaran = Catamaran({ weight: ['100','200','300','400','500','600','700','800','900'],subsets: ['latin'] })
 
 export const metadata = {
@@ -20,7 +21,8 @@ export default function RootLayout({ children }) {
       <body className={catamaran.className}>
       <div className='container'>
         <Web3Modal>
-          <Header/>
+          {/* <Header/> */}
+          <HeaderNew/>
             {children}
           <Footer/>
         </Web3Modal>
