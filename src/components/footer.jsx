@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Dropdown from "./FooterLink";
 
 const Footer = () => {
     return (
@@ -189,7 +190,12 @@ const Footer = () => {
                     </ul> */}
                     <span className="copyright">Copyright ©2024 BOBBY ON</span>
                     {/* <span className="powered">Powered by Hedera</span> */}
-                </div>               
+                </div>
+                <div style={{ display: "flex", justifyContent: "space-between", gap: "20px" }}>
+                    <Dropdown />
+                    <Dropdown />
+                    <Dropdown />
+                </div>
             </div>
         </footer>
 
