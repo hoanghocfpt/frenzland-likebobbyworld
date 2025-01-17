@@ -1,7 +1,7 @@
 'use client'
 import React, { useState, useEffect, useRef } from "react";
 
-const Dropdown = () => {
+const Dropdown = ({title, data}) => {
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef(null);
 
@@ -43,7 +43,7 @@ const Dropdown = () => {
         }}
       >
         <span style={{ marginRight: "8px" }}>
-            Link
+          {title}
         </span>
         {/* Icon */}
         {isOpen ? (
@@ -82,25 +82,17 @@ const Dropdown = () => {
             borderRadius: "4px",
             marginTop: "8px",
             zIndex: "1000",
-            padding: "16px 14px",
+            padding: "14px 14px",
           }}
         >
           <ul style={{ listStyle: "none", margin: 0, padding: 0, width: "100%" }}>
-            <li style={{ marginBottom: "8px" }}>
-              <a target="_blank" href="#link1" style={{ outline: "none", textDecoration: "none", color: "black" }}>
-                CARRIEVERSE Official
+            {data.map((item, index) => (
+              <li key={index} style={{ marginBottom: "0px" }}>
+              <a target="_blank" href={item.url} style={{ outline: "none", textDecoration: "none", color: "black" }}>
+                {item.name}
               </a>
             </li>
-            <li style={{ marginBottom: "8px" }}>
-              <a target="_blank" href="#link2" style={{ outline: "none", textDecoration: "none", color: "black" }}>
-                CARRIEVERSE NFT
-              </a>
-            </li>
-            <li>
-              <a target="_blank" href="#link3" style={{ outline: "none", textDecoration: "none", color: "black" }}>
-                CARRIEVERSE Web3
-              </a>
-            </li>
+            ))}
           </ul>
         </div>
       )}

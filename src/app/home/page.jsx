@@ -23,7 +23,7 @@ const HomePage = () => {
                     <span className={`${titanOne.className} heading`}>BOBBY</span>
                     </h2>
                     <p>
-                    If you love Bobby or are just getting to know him, you’ve come to the right place! Bobby can be optimistic, adventurous, and always up for a challenge. He&apos;s loveable, charming and has an annoying girlfriend.
+                        Bobby, the prince of boba tea, stars in a series from 2022. Once known as "Supfrenz," he now dreams of moon adventures in the magical world of Boba. Charming and funny, he also has a quirky girlfriend who adds to his adventures!
                     </p>
                     {/* <a href="https://discord.com/invite/hZnTwenQtp" target='_blank' className="btn_cta">
                     <span>
