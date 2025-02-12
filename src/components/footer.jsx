@@ -204,13 +204,7 @@ const Footer = () => {
                             { url: "https://opensea.io/collection/bobbyonbase/overview", name: "Bobby NFTs" },
                         ]
                     } />
-                    <Dropdown title='' data={
-                        [
-                            { url: "https://discord.gg/ANg2JtGMjT", name: "Bobby NFTs" },
-                            { url: "https://dexscreener.com/hedera/0x0bc88E8E35B8BDDa7886d818891C83c6bA178Fe0", name: "DexScreener" },
-                            { url: "https://www.saucerswap.finance/swap/HBAR/0.0.7926366", name: "SaucerSwap" },
-                        ]
-                    } />
+                   
                 </div>
             </div>
         </footer>

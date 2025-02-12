@@ -23,7 +23,7 @@ const HomePage = () => {
                     <span className={`${titanOne.className} heading`}>BOBBY</span>
                     </h2>
                     <p>
-                        Bobby, the prince of boba tea, stars in a series from 2022. Once known as "Supfrenz," he now dreams of moon adventures in the magical world of Boba. Charming and funny, he also has a quirky girlfriend who adds to his adventures!
+                    Meet Bobby, the Prince of Boba Tea. This is it! He loves to shop, has a playful heart, and is always up for some crazy, fun parties. Bobby&apos;s mission is to power up the metaverse with Web3. In Frenzland, everyone can have a blast and make new friends while exploring their world, all thanks to Web3.
                     </p>
                     {/* <a href="https://discord.com/invite/hZnTwenQtp" target='_blank' className="btn_cta">
                     <span>
@@ -163,7 +163,7 @@ const HomePage = () => {
                 </div>
                 </div> */}
                 {/* Community */}
-                 <div id='community' className="community">
+                <div id='community' className="community">
                     <div className="heading">
                         <h3>Bobby Community</h3>
                     </div>
@@ -199,53 +199,195 @@ const HomePage = () => {
                         </a>
                     </div>
                 </div>
-                {/* NEWS */}
-                <div id='frenzland' className="news">
+                {/* Land NFT */}
+                <div id='land' className="land">
                     <div className="heading">
-                        <h3>Frenzland</h3>
+                        <h3>Land NFT</h3>
                     </div>
-                    <div className="news_container">
-                        {/* <div className="card">
-                            <div className="video">
-                                <video src="./videos/news1.mp4" autoPlay loop muted playsInline />
+                    <div className="land_container">
+                        <div className="description">
+                            <p>District NFTs, with 3 different categories, allow you to own industrial, commercial, and residential facilities that form the foundation of the economic system within Frenzland.</p>
+                            <div className='button'>
+                                <Link href='/land' className='btn_cta'>Buy The Land</Link>
                             </div>
-                            <div className="content">
-                                <span className="date">11.20.2023</span>
-                                <div className="title_post">POP UP MINT!!</div>
+                        </div>
+                        <div className='img'>
+                            <img src='./images/land_district1.jpg' alt='Land NFT' />
+                        </div>
+                    </div>
+                </div>
+                {/* Currency flow */}
+                <div id='currency' className="currency">
+                    <div className="heading">
+                        <h3>Currency Flow</h3>
+                    </div>
+                    <div className="currency_container">
+                        <div className='item'>
+                            <div className='img'>
+                                <img src='./images/bobby_gold.svg' alt='Bobby Tea' />
                             </div>
-                        </div> */}
+                            <span className='title'>$BOBBY</span>
+                            <ul className='list'>
+                                <li>In-game item</li>
+                                <li>Mini-game reward</li>
+                            </ul>
+                        </div>
+                        <div className='left_right'>
+                            <svg xmlns="http://www.w3.org/2000/svg" width={50} height={50} viewBox="0 0 16 16"><path fill={'white'} fillRule="evenodd" d="M1 11.5a.5.5 0 0 0 .5.5h11.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 11H1.5a.5.5 0 0 0-.5.5m14-7a.5.5 0 0 1-.5.5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H14.5a.5.5 0 0 1 .5.5"></path></svg>
+                        </div>
+                        <div className='item'>
+                            <div className='img'>
+                                <img src='./images/bobby_gold.svg' alt='Bobby Tea' />
+                            </div>
+                            <span className='title'>$BOBBY</span>
+                            <ul className='list'>
+                                <li>Utility token</li>
+                                <li>Means for exchange</li>
+                            </ul>
+                        </div>
+                        <div className='left_right'>
+                            <svg xmlns="http://www.w3.org/2000/svg" width={50} height={50} viewBox="0 0 16 16"><path fill={'white'} fillRule="evenodd" d="M1 11.5a.5.5 0 0 0 .5.5h11.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 11H1.5a.5.5 0 0 0-.5.5m14-7a.5.5 0 0 1-.5.5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H14.5a.5.5 0 0 1 .5.5"></path></svg>
+                        </div>
+                        <div className='item'>
+                            <div className='img'>
+                                <img src='./images/bobby_gold.svg' alt='Bobby Tea' />
+                            </div>
+                            <span className='title'>$BOBBY</span>
+                            <ul className='list'>
+                                <li>Utility token</li>
+                                <li>Defi staking</li>
+                            </ul>
+                        </div>
+                        <div className='left_right'>
+                            <svg xmlns="http://www.w3.org/2000/svg" width={50} height={50} viewBox="0 0 16 16"><path fill={'white'} fillRule="evenodd" d="M1 11.5a.5.5 0 0 0 .5.5h11.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 11H1.5a.5.5 0 0 0-.5.5m14-7a.5.5 0 0 1-.5.5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H14.5a.5.5 0 0 1 .5.5"></path></svg>
+                        </div>
+                        <div className='item'>
+                            <div className='img'>
+                                <img src='./images/bobby_gold.svg' alt='Bobby Tea' />
+                            </div>
+                            <span className='title'>$BOBBY</span>
+                            <ul className='list'>
+                                <li>Utility token</li>
+                                <li>Key currency in <br/> Bobby Platform</li>
+                            </ul>
+                        </div>
                         
-                        <div className="card">
+                        
+                        
+                    </div>
+                </div>
+                {/* Utilities of land NFT */}
+                <div id='utilities_of_land' className="utilities_of_land">
+                    <div className="heading">
+                        <h3>Utilities of Land NFT</h3>
+                    </div>
+                    <div className="utilities_of_land_container">
+                        <div className="item">
                             <div className="img">
-                                <img src="./images/bobbytea.png" alt="Bobby Coming to Vietnam" />
+                                <img src="./images/bobby_gold.svg" alt="Land NFT" />
                             </div>
-                            <div className="content">
-                                <span className="date">Bobby Tea Coming Soon!</span>
-                                {/* <div className="title_post">60 Sec ⏱  Whip Up Instant Bubble Tea At Home! Water + flavor + pearls = Quick, Easy, & Delicious</div> */}
+                            <span className="title">Exclusive incentive</span>
+                        </div>
+                        <div></div>
+                        <div className="item">
+                            <div className="img">
+                                <img src="./images/bobby_gold.svg" alt="Land NFT" />
+                            </div>
+                            <span className="title">Rental service</span>
+                        </div>
+                        <div></div>
+                        <div className="item">
+                            <div className="img">
+                                <img src="./images/bobby_gold.svg" alt="Land NFT" />
+                            </div>
+                            <span className="title">On/Off mode</span>
+                        </div>
+                        <div></div>
+                        <div className="item">
+                            <div className="img">
+                                <img src="./images/bobby_gold.svg" alt="Land NFT" />
+                            </div>
+                            <span className="title">Level up and maximize earning</span>
+                        </div>
+                        <div></div>
+                        <div className="item">
+                            <div className="img">
+                                <img src="./images/bobby_gold.svg" alt="Land NFT" />
+                            </div>
+                            <span className="title">Property value appreciation like real world</span>
+                        </div>
+                    </div>
+                </div>
+                {/* $BOBBY */}
+                <div id='bobby_token' className="bobby_token">
+                    <div className="bobby_token_container">
+                        <div className="description">
+                            <div className="heading">
+                                <h3>$BOBBY</h3>
+                            </div>
+                            <p>$BOBBY is native token that enhances Carrieverse experience while empowering Items ecosystem. Upgrade your Land NFTs with $BOBBY for value accrual in earning or exchange your profits from Land NFTs into $BOBBY.</p>
+                            {/* <div className='button'>
+                                <a href='' className='btn_cta'>Binance</a>
+                                <a href='' className='btn_cta'>OKX</a>
+                                <a href='' className='btn_cta'>Bitget</a>
+                                <a href='' className='btn_cta'>BingX</a>
+                            </div> */}
+                        </div>
+                        <div className='img'>
+                            <img src='./images/bobby_gold.svg' alt='BOBBY' />
+                        </div>
+                    </div>
+                </div>
+                {/* Economy */}
+                <div id='economy' className="economy">
+                    <div className="heading">
+                        <h3>Economy</h3>
+                    </div>
+                    <div className="economy_container">
+                        <div className="land">
+                            <div className='item'>
+                                <div className="img">
+                                    <img src="./images/land_district1.jpg" alt="Land NFT" />
+                                </div>
+                                <div className='name'>District 1</div>
+                                <div className='line'>
+                                    <span>Passive Income</span>
+                                    <div className='line1'></div>
+                                    <div className='line2'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24"><path fill="none" stroke="#fff" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m19 9l-7 7l-7-7"></path></svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='item'>
+                                <div className="img">
+                                    <img src="./images/land_district2.jpg" alt="Land NFT" />
+                                </div>
+                                <div className='name'>District 2</div>
+                                <div className='line'>
+                                    <span>Revenue Share</span>
+                                    <div className='line1'>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24"><path fill="none" stroke="#fff" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m9 5l7 7l-7 7"></path></svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='item'>
+                                <div className="img">
+                                    <img src="./images/land_district3.jpg" alt="Land NFT" />
+                                </div>
+                                <div className='name'>District 3</div>
+                                <div className='line'>
+                                    <span>Revenue Share</span>
+                                    <div className='line1'></div>
+                                    <div className='line2'>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24"><path fill="none" stroke="#fff" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m5 15l7-7l7 7"></path></svg>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-
-                        <div className="card">
-                            <div className="img">
-                                <img src="./images/bobbymeta.png" alt="Bobby Coming to Vietnam" />
-                            </div>
-                            <div className="content">
-                                <span className="date">Frenzland BETA Coming Soon</span>
-                                {/* <div className="title_post">Create a RWA (Real world Asset) District, promote it, shop with your friends and earn. Opportunity for people to make money where they can&apos;t.</div> */}
-                            </div>
+                        <div className='holder'>
+                            <span>Holder</span>
                         </div>
-                        <div className="card">
-                            <div className="img">
-                                <img src="./images/z5801035155027_2f8f3e0535390a2ece9b7bb1cdba5b2b.jpg" alt="The 1000 Bobby&apos;s" />
-                            </div>
-                            <div className="content">
-                                <span className="date">Bobby 1000 NFT collection</span>
-                                {/* <div className="title_post">Shareholder of Bobby tea brand. Holders will be rewarded from Boba tea sales.</div> */}
-                                {/* <Link href="/bobapaper" className="btn_cta">BOBA PAPER</Link> */}
-                            </div>
-                        </div> 
-
-                    </div> 
+                    </div>
                 </div>
                 {/* NEWS */}
                 <div id='minigame' className="news">
@@ -295,55 +437,6 @@ const HomePage = () => {
 
                     </div> 
                 </div>
-                {/* media */}
-                <div id='media' className="media">
-                    <div className="heading">
-                        <h3>Bobby&apos;s</h3>
-                    </div>
-                    <div className='media_container'>
-                        <div className="item">
-                            <div className='img_container'>
-                                <img src="./images/2.svg" alt="Bobby Pikachu" />
-                            </div>
-                        </div>
-                        <div className="item">
-                            <div className='img_container'>
-                                <img src="./images/3.svg" alt="Bobby Pikachu" />
-                            </div>
-                        </div>
-                        <div className="item">
-                            <div className='img_container'>
-                                <img src="./images/4.svg" alt="Bobby Pikachu" />
-                            </div>
-                        </div>
-                        <div className="item">
-                            <div className='img_container'>
-                                <img src="./images/5.svg" alt="Bobby Pikachu" />
-                            </div>
-                        </div>
-                        <div className="item">
-                            <div className='img_container'>
-                                <img src="./images/6.svg" alt="Bobby Pikachu" />
-                            </div>
-                        </div>
-                        <div className="item">
-                            <div className='img_container'>
-                                <img src="./images/7.svg" alt="Bobby Pikachu" />
-                            </div>
-                        </div>
-                        <div className="item">
-                            <div className='img_container'>
-                                <img src="./images/8.svg" alt="Bobby Pikachu" />
-                            </div>
-                        </div>
-                        <div className="item">
-                            <div className='img_container'>
-                                <img src="./images/9.svg" alt="Bobby Pikachu" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
 
 {/* 
                 <div className="how-to-buy">
