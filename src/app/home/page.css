@@ -34,6 +34,7 @@
     width: 50%;
     transform: translateY(-30px);
     line-height: 1.5;
+    padding-top: 30px;
     padding-left: 12px; 
     color: #fff;
     font-weight: 500;
@@ -1587,6 +1588,19 @@
     
 }
 @media only screen and (max-width: 640px){
+    .video_banner_fullscreen .header_home{
+        padding: 40px 5%;
+    }
+    .video_banner_fullscreen .header_home h2 span.heading{
+        font-size: 70px;
+    }
+
+    .video_banner_fullscreen .header_home p{
+        font-size: 18px;
+        padding-left: 0;
+        width: 100%;
+    }
+
     .container .home .home_container{
         grid-template-columns: 1fr;
     }
@@ -1645,8 +1659,127 @@
     .how-to-buy .container .card{
         justify-self: center;
     }
+    .minigame .community .heading{
+        margin-bottom: 0;
+    }
+    .minigame .community .heading h3{
+        font-size: 36px;
+    }
+    .minigame .community .community_container{
+        padding: 10px 5%;
+        gap: 20px;
+    }
+    .minigame .community .community_container .item{
+        font-size: 18px;
+        gap: 6px;
+        padding: 6px 16px;
+    }
+    .minigame .community .community_container .item.no_icon{
+        font-size: 18px;
+    }
 
+    .minigame .currency{
+        height: auto;
+        padding-top: 30px;
+    }
+    .minigame .currency .heading h3{
+        font-size: 36px;
+    }
+    .minigame .currency .currency_container .item .img img{
+        height: 100px;
+    }
+    .minigame .currency .currency_container .item .title {
+        font-size: 20px;
+    }
+    .minigame .currency .currency_container .item .list{
+        font-size: 16px;
+    }
+    .minigame .currency .currency_container .left_right svg{
+        width: 30px;
+        height: 30px;
+    }
 
+    .minigame .land .heading h3{
+        font-size: 36px;
+        text-align: center;
+        transform: translateY(0);
+    }
+    .minigame .land .land_container{
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 5%;
+    }
+    .minigame .land .land_container .description{
+        padding: 0 0;
+    }
+    .minigame .land .land_container .description p{
+        font-size: 16px;
+    }
+    .minigame .land .land_container .description .button {
+        margin-top: 20px;
+    }
+    .minigame .land .land_container .description .button a{
+        padding: 8px 16px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .minigame .land .land_container .img img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .minigame .bobby_token .heading{
+        padding: 0;
+    }
+    .minigame .bobby_token .heading h3{
+        font-size: 36px;
+    }
+    .minigame .bobby_token .bobby_token_container{
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 5%;
+    }
+    .minigame .bobby_token .bobby_token_container .description p{
+        font-size: 16px;
+    }
+    .minigame .bobby_token .bobby_token_container .img img{
+        width: 100%;
+        height: 100%;
+        max-width: 200px;
+    }
+
+    .minigame .economy .heading h3{
+        font-size: 36px;
+    }
+    .minigame .economy .economy_container{
+        transform: scale(.7);
+    }
+
+    .minigame .utilities_of_land .heading h3{
+        font-size: 36px;
+    }
+
+    .minigame .utilities_of_land .utilities_of_land_container{
+        padding: 0 5%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .minigame .utilities_of_land .utilities_of_land_container .item .title {
+        font-size: 18px;
+    }
+    .minigame .utilities_of_land .utilities_of_land_container .item .img img{
+        height: 100px;
+    }
+    /* 2,4,6 */
+    .minigame .utilities_of_land .utilities_of_land_container div:nth-child(2),
+    .minigame .utilities_of_land .utilities_of_land_container div:nth-child(4),
+    .minigame .utilities_of_land .utilities_of_land_container div:nth-child(6),
+    .minigame .utilities_of_land .utilities_of_land_container div:nth-child(8){
+        display: none;
+    }
+    .minigame .utilities_of_land .utilities_of_land_container div:last-of-type{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
 }
 
 

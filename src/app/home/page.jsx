@@ -325,7 +325,7 @@ const HomePage = () => {
                             <div className="heading">
                                 <h3>$BOBBY</h3>
                             </div>
-                            <p>$BOBBY is native token that enhances Carrieverse experience while empowering Items ecosystem. Upgrade your Land NFTs with $BOBBY for value accrual in earning or exchange your profits from Land NFTs into $BOBBY.</p>
+                            <p>$BOBBY is native token that enhances Frenzland experience while empowering Items ecosystem. Upgrade your District with $BOBBY for value accrual in earning or exchange your profits from District into $BOBBY.</p>
                             {/* <div className='button'>
                                 <a href='' className='btn_cta'>Binance</a>
                                 <a href='' className='btn_cta'>OKX</a>
