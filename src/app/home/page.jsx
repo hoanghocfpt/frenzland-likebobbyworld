@@ -389,54 +389,6 @@ const HomePage = () => {
                         </div>
                     </div>
                 </div>
-                {/* NEWS */}
-                <div id='minigame' className="news">
-                    <div className="heading">
-                        <h3>News</h3>
-                    </div>
-                    <div className="news_container">
-                        {/* <div className="card">
-                            <div className="video">
-                                <video src="./videos/news1.mp4" autoPlay loop muted playsInline />
-                            </div>
-                            <div className="content">
-                                <span className="date">11.20.2023</span>
-                                <div className="title_post">POP UP MINT!!</div>
-                            </div>
-                        </div> */}
-                        
-                        <div className="card">
-                            <div className="img">
-                                <img src="./images/bobbytea.png" alt="Bobby Coming to Vietnam" />
-                            </div>
-                            <div className="content">
-                                <span className="date">Bobby Tea Coming Soon!</span>
-                                {/* <div className="title_post">60 Sec ⏱  Whip Up Instant Bubble Tea At Home! Water + flavor + pearls = Quick, Easy, & Delicious</div> */}
-                            </div>
-                        </div>
-
-                        <div className="card">
-                            <div className="img">
-                                <img src="./images/bobbymeta.png" alt="Bobby Coming to Vietnam" />
-                            </div>
-                            <div className="content">
-                                <span className="date">Frenzland BETA Coming Soon</span>
-                                {/* <div className="title_post">Create a RWA (Real world Asset) District, promote it, shop with your friends and earn. Opportunity for people to make money where they can&apos;t.</div> */}
-                            </div>
-                        </div>
-                        <div className="card">
-                            <div className="img">
-                                <img src="./images/z5801035155027_2f8f3e0535390a2ece9b7bb1cdba5b2b.jpg" alt="The 1000 Bobby&apos;s" />
-                            </div>
-                            <div className="content">
-                                <span className="date">Bobby 1000 NFT collection</span>
-                                {/* <div className="title_post">Shareholder of Bobby tea brand. Holders will be rewarded from Boba tea sales.</div> */}
-                                {/* <Link href="/bobapaper" className="btn_cta">BOBA PAPER</Link> */}
-                            </div>
-                        </div> 
-
-                    </div> 
-                </div>
 
 {/* 
                 <div className="how-to-buy">
